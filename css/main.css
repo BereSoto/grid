@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container{
+
+  max-width: 1200px;
+
+}
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after{
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+  min-height: 50px;
+  margin: 1%;
+}
+
+.col-1{
+  width: 6.33%;
+  background-color: yellow;
+}
+.col-2{
+  width: 14.66%;
+  background-color: lime;
+
+}
+
+.col-3{
+  width: 22.99%;
+  background-color: #00FFFF;
+}
+.col-4{
+  width: 31.32%;
+  background-color: #2ECCFA;
+}
+  .col-5{
+    width: 47.98%;
+    background-color: #9A2EFE;
+}
+.col-6{
+width: 98%;
+background-color: #FE2EC8;
+}
